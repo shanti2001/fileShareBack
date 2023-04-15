@@ -8,7 +8,7 @@ const connectDB = ()=>{
     .then(()=>{
         console.log("DataBase Connected");
     }).catch((err)=>{
-        console.log("Not Connected");
+        console.log("Not Connected"+ err);
     })
 }
 
